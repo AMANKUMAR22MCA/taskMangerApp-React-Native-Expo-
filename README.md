@@ -115,11 +115,17 @@ This project is hosted at:
 ## 🖼️ Screenshots 
 
 > 📷 *You can add screenshots here to showcase the UI or API responses.*
-![Screenshot_20250507_224935](https://github.com/user-attachments/assets/c1f80e0c-91c1-4a15-b5ff-20f7837b7246) <br> <br>
-![Screenshot_20250507_225005](https://github.com/user-attachments/assets/9b8572b5-3410-400b-9ad5-2234047b5e68)  <br> <br>
-![Screenshot_20250507_224927](https://github.com/user-attachments/assets/03352069-6648-4d8b-80ed-ac5711144dfe)  <br> <br>
-![Screenshot_20250507_225000](https://github.com/user-attachments/assets/624e96f9-02f4-4e80-ae2f-70e225aef6a1)  <br> <br>
-![Screenshot_20250507_224950](https://github.com/user-attachments/assets/a90632bf-bb07-4db2-9f45-e1f5cefe2a6a)  <br> <br>
+
+
+
+![image](https://github.com/user-attachments/assets/2b449a36-a2e3-4951-b30d-0f85adbe56d4)  <br> <br>
+![image](https://github.com/user-attachments/assets/3d4ccf96-7acd-419b-9d7e-85addc85be9c)  <br> <br>
+![image](https://github.com/user-attachments/assets/28dd145a-40e9-4c4c-ab01-6b706257b0d8)  <br> <br>
+![image](https://github.com/user-attachments/assets/fad63ec6-1cba-444c-8886-64577c0692b2)  <br> <br>
+![image](https://github.com/user-attachments/assets/c42520db-ef45-400c-8cac-58807e26da6b)  <br> <br>
+
+
+
 
 
 

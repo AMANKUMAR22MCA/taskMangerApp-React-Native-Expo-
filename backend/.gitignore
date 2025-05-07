@@ -1,0 +1,58 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django related
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+.env
+.env.*
+
+# Virtual environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VSCode & IDEs
+.vscode/
+.idea/
+
+# MacOS
+.DS_Store
+
+# Docker
+*.pid
+*.seed
+docker-compose.override.yml
+
+# Pytest
+.cache/
+
+# Migrations (Optional, if generated on deploy or in CI/CD)
+**/migrations/*.py
+**/migrations/__pycache__/
+!**/migrations/__init__.py
+
+# Postgres dump files
+*.dump
+*.sql
+
+# Local configuration
+settings_local.py
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+nosetests.xml
+pytest_cache/

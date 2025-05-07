@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    container_name: task-app-backend-container
+    ports:
+      - "8000:8000"
+    environment:
+      - DJANGO_ALLOWED_HOSTS=localhost,host.docker.internal,unix-backend-container,34.100.160.93
+      - DB_HOST=unix-postgres-container
+      - DB_PORT=5432
+      - DB_NAME=task_app
+      - DB_USER=admin
+      - DB_PASSWORD=admin1234
+    command: >
+      sh -c "
+        python manage.py makemigrations &&
+        python manage.py migrate &&
+        python manage.py runserver 0.0.0.0:8000
+      "
+  frontend:
+    build: ./TaskManagerApp
+    container_name: task-app-frontend-container
+    ports:
+      - "8081:8081"   # Metro bundler
+      - "19000:19000" # Expo Go (default connection)
+      - "19001:19001" # WebSocket for updates
+      - "19002:19002" # Expo DevTools UI
+    volumes:
+      - ./TaskManagerApp:/app
+    environment:
+      - EXPO_NO_TELEMETRY=1
+    working_dir: /app
+    command: npx expo start --clear

@@ -114,7 +114,7 @@ This project is hosted at:
 
 ## 🖼️ Screenshots 
 
-> 📷 *You can add screenshots here to showcase the UI or API responses.*
+> 📷 *screenshots to showcase the UI or API responses.*
 
 
 
@@ -123,8 +123,6 @@ This project is hosted at:
 ![image](https://github.com/user-attachments/assets/28dd145a-40e9-4c4c-ab01-6b706257b0d8)  <br> <br>
 ![image](https://github.com/user-attachments/assets/fad63ec6-1cba-444c-8886-64577c0692b2)  <br> <br>
 ![image](https://github.com/user-attachments/assets/c42520db-ef45-400c-8cac-58807e26da6b)  <br> <br>
-
-
 
 
 

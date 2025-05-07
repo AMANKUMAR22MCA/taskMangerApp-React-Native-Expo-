@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-!6o4s%huo33_1@pr8#=@8*$+w&9xmq_udqlc*o%_&5xyd&xr@_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '192.168.134.189']  # Add your IP address here
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '<your_device_ip>']  # Add your IP address here
 
 
 
@@ -62,9 +62,9 @@ MIDDLEWARE = [
 
 
 CORS_ALLOWED_ORIGINS = [
-    "http://192.168.134.189:8081",  # Expo app origin
-    "https://192.168.134.189:8081",  # Expo app secure origin if using https
-    "exp://192.168.134.189:8081",    # Expo's non-http URL
+    "http://<your_device_ip>:8081",  # Expo app origin
+    "https://<your_device_ip>:8081",  # Expo app secure origin if using https
+    "exp://<your_device_ip>:8081",    # Expo's non-http URL
 ]
 
 CORS_ALLOW_ALL_ORIGINS = False
@@ -99,24 +99,15 @@ REST_FRAMEWORK = {
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'task_app',       # Your database name
-#         'USER': 'root',       # Your MySQL username
-#         'PASSWORD': 'Aman@2000',  # Your MySQL password
-#         'HOST': '127.0.0.1',          # Or the address of your MySQL server
-#         'PORT': '3306',               # Default MySQL port
-#     }
-# }
+
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'task_app',       # Your database name
-        'USER': 'admin',       # Your MySQL username
-        'PASSWORD': 'admin1234',  # Your MySQL password
-        'HOST': '34.100.160.93',          # Or the address of your MySQL server
+        'USER': 'your_db_username',       # Your postgres username
+        'PASSWORD': 'yb_db_pasword',  # Your postgres password
+        'HOST': 'your_db_hist',          # Or the address of your MySQL server
         'PORT': '5432',               # Default MySQL port
     }
 }

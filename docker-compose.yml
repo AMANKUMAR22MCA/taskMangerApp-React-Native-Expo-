@@ -11,8 +11,8 @@ services:
       - DB_HOST=unix-postgres-container
       - DB_PORT=5432
       - DB_NAME=task_app
-      - DB_USER=admin
-      - DB_PASSWORD=admin1234
+      - DB_USER=<db_username>
+      - DB_PASSWORD=<db_password>
     command: >
       sh -c "
         python manage.py makemigrations &&
